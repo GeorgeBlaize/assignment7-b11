@@ -1,1 +1,18 @@
-import 'react-toastify/dist/ReactToastify.css';
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.main-content > div {
+  flex: 1;
+}
+
+.main-content > div:last-child {
+  max-width: 300px;
+  margin-left: 20px;
+}
