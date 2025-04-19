@@ -1,0 +1,28 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .footer .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a3c5e;
+  }
+  
+  .footer .highlight {
+    color: #f4c430;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+  }
+  
+  .footer-links li a {
+    text-decoration: none;
+    color: #1a3c5e;
+  }
