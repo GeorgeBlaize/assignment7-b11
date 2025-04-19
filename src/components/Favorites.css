@@ -1,0 +1,31 @@
+.favorites {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .favorites h3 {
+    font-size: 20px;
+    color: #1a3c5e;
+  }
+  
+  .favorites ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .favorites li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .favorites li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+  }
