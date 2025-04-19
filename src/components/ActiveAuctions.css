@@ -1,0 +1,46 @@
+.active-auctions {
+    padding: 20px;
+  }
+  
+  .active-auctions h2 {
+    font-size: 28px;
+    color: #1a3c5e;
+  }
+  
+  .active-auctions p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .bid-now-btn {
+    padding: 5px 10px;
+    background-color: #1a3c5e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .favorite-btn {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .favorite-btn.favorited {
+    color: red;
+    cursor: not-allowed;
+  }
